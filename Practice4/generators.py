@@ -23,4 +23,20 @@ def div(n):
 
 print(list(div(50)))
 
-# 4 
+# 4. Squares from a to b
+
+def squares(a, b):
+    for i in range(a, b + 1):
+        yield i * i
+
+for value in squares(3, 7):
+    print(value)
+
+# 5.Countdown from n to 0
+
+def countdown(n):
+    for i in range(n, -1, -1):
+        yield i
+
+for value in countdown(5):
+    print(value)
