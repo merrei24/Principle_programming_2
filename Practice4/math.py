@@ -3,14 +3,15 @@
 import math
 
 degree = 15
-print(math.radians(degree))
-
+print(math.radians(degree)) #convert into radians
+#0.2618
 # 2 Area of trapezoid
 h = 5
 a = 5
 b = 6
 
 print((a + b) * h / 2)
+#code calculates this formula and prints the result. 27.5
 
 # 3 Area of regular polygon
 import math
@@ -21,9 +22,11 @@ a = 2
 area = (n * a * a) / (4 * math.tan(math.pi / n))
 print(area)
 
+#4
+
 # 4 Area of parallelogram
 
 base = 5
 height = 6
 
-print(base * height)
+print(base * height) #code multiplies these values and prints the result. 30
