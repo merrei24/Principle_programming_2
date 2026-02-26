@@ -22,3 +22,5 @@ def div(n):
             yield i 
 
 print(list(div(50)))
+
+# 4 
