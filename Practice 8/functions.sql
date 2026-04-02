@@ -1,0 +1,21 @@
+CREATE OR REPLACE FUNCTION records(p text)
+RETURNS TABLE(out_id INTEGER, out_name VARCHAR, out_phone VARCHAR) AS $$
+BEGIN
+    RETURN QUERY
+    SELECT id, username, phone FROM phonebook
+    WHERE username ILIKE '%' || p || '%'
+    OR phone ILIKE '%' || p || '%';
+END;
+$$ LANGUAGE plpgsql;
+
+
+CREATE OR REPLACE FUNCTION pagination(lim int, offs int)
+RETURNS TABLE(out_id INTEGER, out_name VARCHAR, out_phone VARCHAR) AS $$
+BEGIN
+    RETURN QUERY
+    SELECT id, username, phone
+    FROM phonebook
+    ORDER BY username
+    LIMIT lim OFFSET offs;
+END;
+$$ LANGUAGE plpgsql;
