@@ -1,0 +1,42 @@
+[
+    {
+        "first_name": "merei",
+        "email": "merei@gmail.com",
+        "birthday": "1995-05-20"
+    },
+    {
+        "first_name": "ULAN",
+        "email": "ulan2005@work.com",
+        "birthday": "1995-05-20"
+    },
+    {
+        "first_name": "Nurzhau",
+        "email": "nurzhau.w@mail.com",
+        "birthday": "1988-11-03"
+    },
+    {
+        "first_name": "Aruzhan",
+        "email": "aruzhan.d@gmail.com",
+        "birthday": "2004-12-15"
+    },
+    {
+        "first_name": "Erasyl",
+        "email": "era.pro@work.kz",
+        "birthday": "1992-03-28"
+    },
+    {
+        "first_name": "Alina",
+        "email": "alina.best@mail.ru",
+        "birthday": "2005-06-10"
+    },
+    {
+        "first_name": "Madiyar",
+        "email": "madi.tech@icloud.com",
+        "birthday": "1998-09-05"
+    },
+    {
+        "first_name": "Damir",
+        "email": "damir.v@company.com",
+        "birthday": "1990-01-20"
+    }
+]
